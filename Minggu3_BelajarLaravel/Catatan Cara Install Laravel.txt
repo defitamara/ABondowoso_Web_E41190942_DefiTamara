@@ -1,0 +1,24 @@
+Defi Tamara - E41190942
+
+CARA INSTALASI LARAVEL
+1. Buka command prompt, windows+r => cmd
+2. cek instalasi composer, caranya ketik composer lalu enter
+3. Buka folder htdocs dengan cd xampp/htdocs, jika folder htdocs kita tidak diinstall di C maka ketik D: lalu enter
+4. Ketikkan cd Instalasi Apps/xampp/htdocs (Nama folder menyesuaikan dengan milik masing2)
+5. INSTALL LARAVEL 6
+composer create-project -–prefer-dist laravel/laravel nama_projectmu “6.*”
+INSTALL LARAVEL TERBARU
+composer create-project --prefer-dist laravel/laravel nama_projectmu
+6. Cek instalasi laravel di dalam folder htdocs
+7. Kembali ke cmd dan ketik,cd nama_projek
+8. Lalu ketikkan, php artisan serve
+Jika muncul tulisan Laravel development server started pada Command Prompt atau Terminal, langkah selanjutnya adalah membuka link yang telah disediakan oleh Laravel. Secara default, Anda akan diarahkan menuju alamat server,yaitu 127.0.0.1:8000.
+9. Setelah instalasi selesai, baru ikuti langkah praktikum di BKPM Minggu 3.
+
+CATATAN:
+Pada praktikum minggu 3, saya menggunakan Laravel versi 6
+
+REFERENSI
+https://www.niagahoster.co.id/blog/cara-install-laravel-di-windows/
+https://idnetter.com/cara-pindah-direktori-command-prompt-windows/
+https://ilmucoding.com/cara-install-laravel-6/
