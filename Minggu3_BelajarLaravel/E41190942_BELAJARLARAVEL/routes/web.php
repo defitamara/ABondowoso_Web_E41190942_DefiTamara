@@ -11,10 +11,20 @@
 |
 */
 
-// Route::get('user','ManagementUserController@index');
-Route::resource('user','ManagementUserController');
-
 Route::get('/', function () {
     return view('welcome');
 });
+
+// ---------Praktikum Minggu 3 Pertemuan 2 --------------------------
+// Route::get('user','ManagementUserController@index');
+Route::resource('user','ManagementUserController');
+//  -----------------------------------------------------------------
+
+// ---------Praktikum Minggu 3 Pertemuan 3 --------------------------
+Route::get('/home', function () {
+    return view('home');
+});
+//  -----------------------------------------------------------------
+
+
 
