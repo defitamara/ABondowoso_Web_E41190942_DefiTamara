@@ -1,0 +1,24 @@
+KETERANGAN PRAKTIKUM MINGGU 4
+Dosen: Pak Andri Permana
+
+Praktikum Minggu 4 Pertemuan 1 dan 2
+1. Menambahkan asset di public > frontend
+Link download: https://bootstrapmade.com/content/templatefiles/Butterfly/Butterfly-bootstrap-4.zip
+Atau cek di Folder Template (.zip)
+2. Membuat folder dan file di resources > views > frontend
+- home.blade.php
+- frontend > layouts berisi: template.blade.php dan navbar.blade.php
+3. Menambahkan route di routes > web.php
+4. Membuat controller baru di app > Http > Controllers > Frontend > HomeController.php
+Cek running: localhost:8000/home 
+
+Praktikum Minggu 4 Pertemuan 1 dan 2
+1. Menambahkan asset di public > backend
+Link download: https://bootstrapmade.com/content/templatefiles/NiceAdmin/NiceAdmin.zip
+Atau cek di Folder Template (.zip)
+2. Membuat folder dan file di resources > views > backend
+- dashboard.blade.php
+- backend > layouts berisi: template.blade.php dan sidebar.blade.php
+3. Menambahkan route di routes > web.php
+4. Membuat controller baru di app > Http > Controllers > Backend > DashboardController.php
+Cek running: localhost:8000/dashboard 
