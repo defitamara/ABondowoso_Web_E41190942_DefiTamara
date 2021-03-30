@@ -12,7 +12,7 @@ Atau cek di Folder Template (.zip)
 4. Membuat controller baru di app > Http > Controllers > Frontend > HomeController.php
 Cek running: localhost:8000/home 
 
-Praktikum Minggu 4 Pertemuan 1 dan 2
+Praktikum Minggu 4 Pertemuan 3 dan 4
 1. Menambahkan asset di public > backend
 Link download: https://bootstrapmade.com/content/templatefiles/NiceAdmin/NiceAdmin.zip
 Atau cek di Folder Template (.zip)
