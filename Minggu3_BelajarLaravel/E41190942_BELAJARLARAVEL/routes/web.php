@@ -26,5 +26,11 @@ Route::get('/home', function () {
 });
 //  -----------------------------------------------------------------
 
+// ---------Praktikum Minggu 4 Pertemuan 1 --------------------------
+Route::group(['namespace' => 'Frontend'], function () {
+    Route::resource('home', 'HomeController');
+});
+//  -----------------------------------------------------------------
+
 
 
