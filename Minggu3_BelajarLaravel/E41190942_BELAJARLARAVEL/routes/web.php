@@ -26,9 +26,15 @@ Route::get('/home', function () {
 });
 //  -----------------------------------------------------------------
 
-// ---------Praktikum Minggu 4 Pertemuan 1 --------------------------
+// ---------Praktikum Minggu 4 Pertemuan 1 dan 2 --------------------------
 Route::group(['namespace' => 'Frontend'], function () {
     Route::resource('home', 'HomeController');
+});
+//  -----------------------------------------------------------------
+
+// ---------Praktikum Minggu 4 Pertemuan 3 dan 4 --------------------------
+Route::group(['namespace' => 'Backend'], function () {
+    Route::resource('dashboard', 'DashboardController');
 });
 //  -----------------------------------------------------------------
 
